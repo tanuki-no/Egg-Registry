@@ -1,0 +1,19 @@
+# Phoenix::Egg registry configuration
+
+IF (NOT EggRegistryIncludePath OR NOT EggRegistryLibraryPath OR NOT EggRegistryLibraryName)
+
+  SET (	EggRegistryIncludePath	"@CMAKE_INSTALL_FULL_INCLUDEDIR@"
+	CACHE	PATH "Egg (Linux SDK) registry includes"		)
+
+  SET (	EggRegistryLibraryPath	"@CMAKE_INSTALL_FULL_LIBDIR@"
+	CACHE	PATH "Egg (Linux SDK) registry library"		)
+
+  SET (	EggRegistryLibraryName	"@LibraryName@"
+	CACHE	PATH "Egg (Linux SDK) registry library name"	)
+
+SET (	EggRegistryFullLibraryName	"@LibraryFullName@"
+	CACHE	PATH "Egg (Linux SDK) registry full library name"	)
+
+ENDIF ()
+
+# End of file

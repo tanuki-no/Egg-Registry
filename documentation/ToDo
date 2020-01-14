@@ -1,0 +1,10 @@
+ToDo list
+------------------------------------
+
+1. Switch to thread-safe atomic based registry. Useful links are:
+
+   * https://kukuruku.co/post/lock-free-data-structures-introduction/
+   * http://www.cplusplus.com/reference/atomic/
+
+
+------------------------------------
