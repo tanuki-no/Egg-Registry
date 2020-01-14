@@ -4,7 +4,7 @@ libdir=${prefix}/@CMAKE_INSTALL_LIBDIR@
 includedir=${prefix}/@CMAKE_INSTALL_INCLUDEDIR@
 
 Name: egg-registry
-Description: Phoenix Egg registry library
+Description: Egg (Linux SDK) registry library
 Version: @PROJECT_VERSION@
 URL: https://github.com/tanuki-no/Egg-Registry
 Libs: -L${libdir} -l@LibraryName@
